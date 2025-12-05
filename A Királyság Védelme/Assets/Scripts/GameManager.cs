@@ -1,26 +1,38 @@
-using TMPro;
 using UnityEngine;
+using TMPro; // Kell a szöveghez
+using UnityEngine.SceneManagement; // Kell majd az újraindításhoz
 
 public class GameManager : MonoBehaviour
 {
+    // --- SINGLETON ---
     public static GameManager instance;
+
+    void Awake()
+    {
+        instance = this;
+    }
 
     [Header("Játékos Adatai")]
     public int currentMana = 100;
+    public int currentLives = 3;
+    public bool isGameOver = false;
 
     [Header("UI Referenciák")]
     public TMP_Text manaText;
+    public TMP_Text livesText;
+    public GameObject gameOverPanel;
 
-    // --- KIVÁLASZTOTT EGYSÉG (Bolt) ---
     [Header("Bolt")]
     public GameObject unitToPlace; // Ez van most a "kezedben"
     public int unitCost;           // Ennyibe kerül
 
-    void Awake() { instance = this; }
+    void Start()
+    {
+        UpdateUI();
+    }
 
-    void Start() { UpdateUI(); }
+    // --- FÜGGVÉNYEK ---
 
-    // Ezt hívja a Kártya gomb
     public void SelectUnit(GameObject unit, int cost)
     {
         unitToPlace = unit;
@@ -28,35 +40,53 @@ public class GameManager : MonoBehaviour
         Debug.Log($"Kiválasztva: {unit.name}, Ára: {cost}");
     }
 
-    // Ezt hívja a GridManager pénztermeléskor
     public void AddMana(int amount)
     {
         currentMana += amount;
         UpdateUI();
     }
 
-    // Ezt hívja a GridManager vásárláskor
     public bool SpendMana(int amount)
     {
         if (currentMana >= amount)
         {
             currentMana -= amount;
             UpdateUI();
-            return true; // Volt elég pénz, levontuk
+            return true;
         }
-        return false; // Nem volt elég pénz
+        return false;
     }
 
-    // (OPCIONÁLIS ÚJ RÉSZ)
-    // Ezt majd akkor használhatod, ha azt akarod, hogy jobb klikkre "elejtse" az egységet
-    public void DeselectUnit()
+    public void PlayerTakeDamage(int damage)
     {
-        unitToPlace = null;
-        unitCost = 0;
+        if (isGameOver) return;
+
+        currentLives -= damage;
+        UpdateUI();
+
+        Debug.Log($"Jaj! Egy Goblin bejutott! Maradt {currentLives} életed.");
+
+        if (currentLives <= 0)
+        {
+            GameOver();
+        }
+    }
+
+    void GameOver()
+    {
+        isGameOver = true;
+        Debug.Log("GAME OVER! Vesztettél!");
+        Time.timeScale = 0;
+
+        if (gameOverPanel != null)
+        {
+            gameOverPanel.SetActive(true);
+        }
     }
 
     void UpdateUI()
     {
         if (manaText != null) manaText.text = currentMana.ToString();
+        if (livesText != null) livesText.text = currentLives.ToString();
     }
 }

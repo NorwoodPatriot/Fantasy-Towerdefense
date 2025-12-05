@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Fantasy-Towerdefense\\A Kir\u00E1lys\u00E1g V\u00E9delme\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F4B68783-E5E3-849A-DE5A-D22A92675AFD}|Assembly-CSharp.csproj|d:\\fantasy-towerdefense\\a kir\u00E1lys\u00E1g v\u00E9delme\\assets\\scripts\\ellensegmozgas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4B68783-E5E3-849A-DE5A-D22A92675AFD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ellensegmozgas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4B68783-E5E3-849A-DE5A-D22A92675AFD}|Assembly-CSharp.csproj|d:\\fantasy-towerdefense\\a kir\u00E1lys\u00E1g v\u00E9delme\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4B68783-E5E3-849A-DE5A-D22A92675AFD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4B68783-E5E3-849A-DE5A-D22A92675AFD}|Assembly-CSharp.csproj|d:\\fantasy-towerdefense\\a kir\u00E1lys\u00E1g v\u00E9delme\\assets\\scripts\\gridmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4B68783-E5E3-849A-DE5A-D22A92675AFD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gridmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GridManager.cs",
+              "DocumentMoniker": "D:\\Fantasy-Towerdefense\\A Kir\u00E1lys\u00E1g V\u00E9delme\\Assets\\Scripts\\GridManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GridManager.cs",
+              "ToolTip": "D:\\Fantasy-Towerdefense\\A Kir\u00E1lys\u00E1g V\u00E9delme\\Assets\\Scripts\\GridManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GridManager.cs",
+              "ViewState": "AgIAAIsAAAAAAAAAAADwvwkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T23:48:00.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EllensegMozgas.cs",
+              "DocumentMoniker": "D:\\Fantasy-Towerdefense\\A Kir\u00E1lys\u00E1g V\u00E9delme\\Assets\\Scripts\\EllensegMozgas.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EllensegMozgas.cs",
+              "ToolTip": "D:\\Fantasy-Towerdefense\\A Kir\u00E1lys\u00E1g V\u00E9delme\\Assets\\Scripts\\EllensegMozgas.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EllensegMozgas.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T23:47:26.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "D:\\Fantasy-Towerdefense\\A Kir\u00E1lys\u00E1g V\u00E9delme\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "D:\\Fantasy-Towerdefense\\A Kir\u00E1lys\u00E1g V\u00E9delme\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwFkAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T23:47:01.211Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

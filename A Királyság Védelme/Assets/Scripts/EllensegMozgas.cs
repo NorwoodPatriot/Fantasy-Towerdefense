@@ -15,15 +15,20 @@ public class EllensegMozgas : MonoBehaviour
 
     void Update()
     {
-        // CSAK AKKOR mozog, ha éppen NEM támad senkit!
+        // Mozgás (csak ha nem támad)
         if (!tamad)
         {
             transform.Translate(Vector2.up * sebesseg * Time.deltaTime);
         }
 
-        // Ha kimegy a pályáról, töröljük (kés?bb itt veszít a játékos)
-        if (transform.position.y > 10f)
+        // --- ÚJ RÉSZ: HA FELÉR A TET?RE ---
+        // (Ellen?rizd, hogy a 10 jó-e, lehet, hogy a te pályádon ez 5 vagy 6)
+        if (transform.position.y > 5.5f) // Átírtam 5.5-re, mert a te rácsod teteje kb. ott van!
         {
+            // 1. Szólunk a GameManagernek, hogy vesztettünk 1 életet
+            GameManager.instance.PlayerTakeDamage(1);
+
+            // 2. A Goblin elt?nik (bement a házba)
             Destroy(gameObject);
         }
     }
