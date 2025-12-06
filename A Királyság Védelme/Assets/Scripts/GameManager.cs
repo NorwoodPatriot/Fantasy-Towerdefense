@@ -103,7 +103,31 @@ public class GameManager : MonoBehaviour
         // El?ször leállítjuk a zenét, hogy drámai legyen
        
     }
-  
+
+    public void NextLevel()
+    {
+        // 1. Visszaállítjuk az id?t (nagyon fontos!)
+        Time.timeScale = 1f;
+
+        // 2. Megnézzük, hányas számú pályán vagyunk most
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+
+        // 3. Kiszámoljuk a következ?t
+        int nextSceneIndex = currentSceneIndex + 1;
+
+        // 4. Ellen?rizzük, hogy létezik-e a következ? pálya
+        if (nextSceneIndex < SceneManager.sceneCountInBuildSettings)
+        {
+            // Ha van, betöltjük
+            SceneManager.LoadScene(nextSceneIndex);
+        }
+        else
+        {
+            // Ha elfogytak a pályák (nincs több), visszamegyünk a menübe
+            Debug.Log("Nincs több pálya, gratulálok! Vissza a menübe.");
+            SceneManager.LoadScene("MainMenu");
+        }
+    }
     void UpdateUI()
     {
         if (manaText != null) manaText.text = currentMana.ToString();
@@ -160,28 +184,5 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 0; // Játék megáll
     }
 
-    public void NextLevel()
-    {
-        // 1. Visszaállítjuk az id?t (nagyon fontos!)
-        Time.timeScale = 1f;
-
-        // 2. Megnézzük, hányas számú pályán vagyunk most
-        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-
-        // 3. Kiszámoljuk a következ?t
-        int nextSceneIndex = currentSceneIndex + 1;
-
-        // 4. Ellen?rizzük, hogy létezik-e a következ? pálya
-        if (nextSceneIndex < SceneManager.sceneCountInBuildSettings)
-        {
-            // Ha van, betöltjük
-            SceneManager.LoadScene(nextSceneIndex);
-        }
-        else
-        {
-            // Ha elfogytak a pályák (nincs több), visszamegyünk a menübe
-            Debug.Log("Nincs több pálya, gratulálok! Vissza a menübe.");
-            SceneManager.LoadScene("MainMenu");
-        }
-    }
+    
 }

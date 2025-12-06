@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 614509920038239364}
   - component: {fileID: 6696152915880646982}
   - component: {fileID: 6456458547222267004}
-  - component: {fileID: 2919601602822079453}
+  - component: {fileID: 3361266423480793511}
   m_Layer: 0
   m_Name: Ork
   m_TagString: Enemy
@@ -181,9 +181,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80124e548399d3349a610cb14832ddd1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EletEro
-  maxElet: 50
+  maxElet: 4
   jelenlegiElet: 0
-  aranyErtek: 20
+  aranyErtek: 2
 --- !u!114 &6456458547222267004
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -196,10 +196,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d8ca43bf0b80864a98e0f5edb2b048c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EllensegMozgas
-  sebesseg: 0.8
-  sebzes: 5
+  sebesseg: 1.5
+  sebzes: 10
   tamadasSebesseg: 1
---- !u!95 &2919601602822079453
+--- !u!95 &3361266423480793511
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0

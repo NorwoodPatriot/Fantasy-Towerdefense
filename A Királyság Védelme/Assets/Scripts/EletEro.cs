@@ -55,17 +55,6 @@ public class EletEro : MonoBehaviour
             }
         }
 
-        // --- EZ AZ ÚJ RÉSZ AZ ORKOK MIATT! ---
-        // 3. ÜTKÖZ? KIKAPCSOLÁSA
-        // Ez azért kell, hogy a "halott" test már ne fogja fel az egérkattintást.
-        // Így azonnal tudsz építeni a helyére, még miel?tt a Destroy teljesen eltüntetné.
-        Collider2D col = GetComponent<Collider2D>();
-        if (col != null)
-        {
-            col.enabled = false;
-        }
-        // -------------------------------------
-
         Destroy(gameObject);
     }
 }

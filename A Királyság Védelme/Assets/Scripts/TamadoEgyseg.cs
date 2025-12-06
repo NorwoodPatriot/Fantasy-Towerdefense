@@ -47,4 +47,16 @@ public class TamadoEgyseg : MonoBehaviour
             AudioManager.instance.PlaySFX(AudioManager.instance.lovesHang);
         }
     }
+
+
+    void OnDrawGizmosSelected()
+    {
+        // BIZTONSÁGI ELLEN?RZÉS: Ha az objektum már törl?dött, ne rajzoljon!
+        if (this == null || gameObject == null) return;
+
+        Gizmos.color = Color.red;
+        // Mivel ebben a scriptben nincs "hatotav" változó, fixen 5-öt rajzolunk,
+        // vagy ha van változód, írd be azt.
+        Gizmos.DrawWireSphere(transform.position, 5.0f);
+    }
 }
