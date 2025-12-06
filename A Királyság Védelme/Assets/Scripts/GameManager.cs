@@ -52,6 +52,10 @@ public class GameManager : MonoBehaviour
     {
         currentGold += amount;
         UpdateUI();
+
+        int bankGold = PlayerPrefs.GetInt("TotalGold", 0);
+        PlayerPrefs.SetInt("TotalGold", bankGold + amount);
+        PlayerPrefs.Save();
     }
 
     public bool SpendMana(int amount)
@@ -99,13 +103,20 @@ public class GameManager : MonoBehaviour
         // El?ször leállítjuk a zenét, hogy drámai legyen
        
     }
-
+  
     void UpdateUI()
     {
         if (manaText != null) manaText.text = currentMana.ToString();
         if (livesText != null) livesText.text = currentLives.ToString();
         if (goldText != null) goldText.text = currentGold.ToString();
     }
+
+
+    [Header("Szint Rendszer")]
+    public int currentLevelIndex = 1; // Hányas pálya ez? (Inspectorban állítsd be!)
+    public GameObject winPanel;       // Húzz be ide egy "Gy?zelem" panelt!
+
+   
 
     public void RestartGame()
     {
@@ -115,5 +126,62 @@ public class GameManager : MonoBehaviour
         // 2. Újratöltjük az aktuális pályát (Scene-t)
         // Ehhez kell a "using UnityEngine.SceneManagement;" a fájl tetején (az már ott van nálad)
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void GoToMenu()
+    {
+        // 1. Nagyon fontos: Visszaállítjuk az id?t!
+        // Ha Game Over közben (amikor áll az id?) lépsz ki, a Menü is "fagyott" lenne.
+        Time.timeScale = 1f;
+
+        // 2. Betöltjük a menüt
+        // Gy?z?dj meg róla, hogy a Scene neve pontosan "MainMenu"!
+        SceneManager.LoadScene("MainMenu");
+    }
+
+
+    public void LevelComplete()
+    {
+        if (isGameOver) return; // Ha már meghaltál, ne nyerj
+
+        Debug.Log("SZÉP VOLT! PÁLYA KÉSZ!");
+
+        // Elmentjük, hogy ezt a pályát megcsináltad
+        // Ha a 1-es pályán vagy, akkor a "LevelReached" legyen 2
+        int mentettSzint = PlayerPrefs.GetInt("LevelReached", 1);
+        if (currentLevelIndex >= mentettSzint)
+        {
+            PlayerPrefs.SetInt("LevelReached", currentLevelIndex + 1);
+            PlayerPrefs.Save();
+        }
+
+        // Megjelenítjük a Gy?zelem Panelt
+        if (winPanel != null) winPanel.SetActive(true);
+        Time.timeScale = 0; // Játék megáll
+    }
+
+    public void NextLevel()
+    {
+        // 1. Visszaállítjuk az id?t (nagyon fontos!)
+        Time.timeScale = 1f;
+
+        // 2. Megnézzük, hányas számú pályán vagyunk most
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+
+        // 3. Kiszámoljuk a következ?t
+        int nextSceneIndex = currentSceneIndex + 1;
+
+        // 4. Ellen?rizzük, hogy létezik-e a következ? pálya
+        if (nextSceneIndex < SceneManager.sceneCountInBuildSettings)
+        {
+            // Ha van, betöltjük
+            SceneManager.LoadScene(nextSceneIndex);
+        }
+        else
+        {
+            // Ha elfogytak a pályák (nincs több), visszamegyünk a menübe
+            Debug.Log("Nincs több pálya, gratulálok! Vissza a menübe.");
+            SceneManager.LoadScene("MainMenu");
+        }
     }
 }

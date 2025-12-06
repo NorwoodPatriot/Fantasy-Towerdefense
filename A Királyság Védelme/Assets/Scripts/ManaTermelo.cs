@@ -9,6 +9,12 @@ public class ManaTermelo : MonoBehaviour
 
     void Start()
     {
+        // --- ÚJ RÉSZ: SZINT LEKÉRDEZÉSE ---
+        int myLevel = PlayerPrefs.GetInt("MinerLevel", 1);
+
+        // Minden szint +5 Manát jelent (pl. Lv1=25, Lv2=30, Lv3=35)
+        mennyiseg = 25 + (myLevel - 1) * 5;
+        // ----------------------------------
         // Amint megszületik a bányász, elindítjuk a termelést
         StartCoroutine(TermelesFolyamat());
     }

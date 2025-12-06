@@ -36,17 +36,17 @@ public class EletEro : MonoBehaviour
 
     void Meghal()
     {
-        // --- ÚJ RÉSZ: PÉNZ KIOSZTÁSA ---
-        // Csak akkor adunk pénzt, ha van értéke (pl. Goblin) és létezik a GameManager
+        // 1. PÉNZ KIOSZTÁSA
         if (aranyErtek > 0 && GameManager.instance != null)
         {
             GameManager.instance.AddGold(aranyErtek);
-            GameManager.instance.AddMana(aranyErtek*2);
+            // Ha a manát is így kezeled, maradhat:
+            GameManager.instance.AddMana(aranyErtek * 2);
             Debug.Log($"Hulla-jutalék: +{aranyErtek} Gold!");
         }
-        // -------------------------------
 
-        // Szólunk a rácsnak, ha volt helyünk (ez a Véd?kre vonatkozik)
+        // 2. RÁCS FELSZABADÍTÁSA (Csak Véd?knél fontos)
+        // Az ellenségeknél a myRow/myCol általában -1 marad, így ez nem fut le náluk, ami helyes.
         if (myRow != -1 && myCol != -1)
         {
             if (GridManager.instance != null)
@@ -54,6 +54,17 @@ public class EletEro : MonoBehaviour
                 GridManager.instance.CellFelszabadit(myRow, myCol);
             }
         }
+
+        // --- EZ AZ ÚJ RÉSZ AZ ORKOK MIATT! ---
+        // 3. ÜTKÖZ? KIKAPCSOLÁSA
+        // Ez azért kell, hogy a "halott" test már ne fogja fel az egérkattintást.
+        // Így azonnal tudsz építeni a helyére, még miel?tt a Destroy teljesen eltüntetné.
+        Collider2D col = GetComponent<Collider2D>();
+        if (col != null)
+        {
+            col.enabled = false;
+        }
+        // -------------------------------------
 
         Destroy(gameObject);
     }

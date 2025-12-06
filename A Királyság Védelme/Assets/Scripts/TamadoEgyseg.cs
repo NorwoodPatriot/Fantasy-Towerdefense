@@ -10,6 +10,16 @@ public class TamadoEgyseg : MonoBehaviour
 
     void Start()
     {
+        // --- ÚJ RÉSZ: SZINT LEKÉRDEZÉSE ---
+        int myLevel = PlayerPrefs.GetInt("ElfLevel", 1);
+
+        // Minden szinten 0.1 másodperccel gyorsabban l?
+        // Lv1 = 2.0s, Lv2 = 1.9s, stb.
+        lovesIdokoz = 2.0f - (myLevel - 1) * 0.1f;
+
+        // Biztonsági korlát, ne legyen túl gyors (min 0.5 mp)
+        if (lovesIdokoz < 0.5f) lovesIdokoz = 0.5f;
+        // ----------------------------------
         StartCoroutine(LovesFolyamat());
     }
 

@@ -1,5 +1,5 @@
 using UnityEngine;
-using UnityEngine.SceneManagement; // Kell a pályabetöltéshez
+using UnityEngine.SceneManagement; // FONTOS: Ez kell a pályaváltáshoz!
 
 public class MainMenu : MonoBehaviour
 {
@@ -7,40 +7,50 @@ public class MainMenu : MonoBehaviour
     public GameObject mapPanel;
     public GameObject villagePanel;
 
-    // --- TÉRKÉP MEGNYITÁSA / BEZÁRÁSA ---
-    public void OpenMap()
+    [Header("Gombok")]
+    // Ha van Level 2 gombod, húzd be ide, ha nincs, hagyd üresen
+    public UnityEngine.UI.Button level2Button;
+
+    void Start()
     {
-        mapPanel.SetActive(true);
+        // Megnézzük, meddig jutott a játékos (alapból 1)
+        int levelReached = PlayerPrefs.GetInt("LevelReached", 1);
+
+        // Csak akkor foglalkozunk ezzel, ha be van kötve a gomb
+        if (level2Button != null)
+        {
+            if (levelReached >= 2)
+                level2Button.interactable = true;
+            else
+                level2Button.interactable = false;
+        }
     }
 
-    public void CloseMap()
-    {
-        mapPanel.SetActive(false);
-    }
+    // --- PANELEK ---
+    public void OpenMap() { mapPanel.SetActive(true); }
+    public void CloseMap() { mapPanel.SetActive(false); }
 
-    // --- FALU MEGNYITÁSA / BEZÁRÁSA ---
-    public void OpenVillage()
-    {
-        villagePanel.SetActive(true);
-    }
+    public void OpenVillage() { villagePanel.SetActive(true); }
+    public void CloseVillage() { villagePanel.SetActive(false); }
 
-    public void CloseVillage()
-    {
-        villagePanel.SetActive(false);
-    }
-
-    // --- PÁLYA INDÍTÁSA ---
+    // --- INDÍTÁS ---
     public void StartLevel1()
     {
-        // FONTOS: Itt pontosan a te Scene-ed nevét kell megadni!
-        // A képeid alapján a neve: "GameScene"
-        SceneManager.LoadScene("GameScene");
+        Debug.Log("Indul a GameScene..."); // Ellen?rzés a konzolon
+
+        Time.timeScale = 1f; // Id? újraindítása (ha Game Over miatt állna)
+        SceneManager.LoadScene("GameScene"); // Pálya betöltése
     }
 
-    // --- KILÉPÉS ---
+    // Ha van második pálya, ezt kösd a 2-es gombra
+    public void StartLevel2()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("Level2"); // Gy?z?dj meg róla, hogy ez a neve!
+    }
+
     public void QuitGame()
     {
-        Debug.Log("Kilépés...");
         Application.Quit();
     }
 }

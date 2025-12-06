@@ -1,0 +1,1833 @@
+fileFormatVersion: 2
+guid: 2409babd570263344b981bced31168b9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3020770310381727938
+    second: terrain_decor_0
+  - first:
+      213: 7078507195138780294
+    second: terrain_decor_1
+  - first:
+      213: 582442279044722346
+    second: terrain_decor_2
+  - first:
+      213: 426451791178637760
+    second: terrain_decor_3
+  - first:
+      213: -7629678597121945505
+    second: terrain_decor_4
+  - first:
+      213: 1196892343005304880
+    second: terrain_decor_5
+  - first:
+      213: -5244877084583521665
+    second: terrain_decor_6
+  - first:
+      213: -5416738990917800596
+    second: terrain_decor_7
+  - first:
+      213: -3364976158240048933
+    second: terrain_decor_8
+  - first:
+      213: -6249619039581516435
+    second: terrain_decor_9
+  - first:
+      213: 5809680412795347575
+    second: terrain_decor_10
+  - first:
+      213: -5637662085624688557
+    second: terrain_decor_11
+  - first:
+      213: -2941272343426107964
+    second: terrain_decor_12
+  - first:
+      213: -6425861676194487046
+    second: terrain_decor_13
+  - first:
+      213: -5161979902072015041
+    second: terrain_decor_14
+  - first:
+      213: 4786061011756981316
+    second: terrain_decor_15
+  - first:
+      213: -8595898197187730587
+    second: terrain_decor_16
+  - first:
+      213: 3895941166355463513
+    second: terrain_decor_17
+  - first:
+      213: -1063477638822699464
+    second: terrain_decor_18
+  - first:
+      213: 5262160483329993224
+    second: terrain_decor_19
+  - first:
+      213: 1163574748504409179
+    second: terrain_decor_20
+  - first:
+      213: 8166403291634124815
+    second: terrain_decor_21
+  - first:
+      213: -3682368068543329600
+    second: terrain_decor_22
+  - first:
+      213: -80430097259611559
+    second: terrain_decor_23
+  - first:
+      213: 6403795158288544257
+    second: terrain_decor_24
+  - first:
+      213: 9066552650152076169
+    second: terrain_decor_25
+  - first:
+      213: 1933031697114647328
+    second: terrain_decor_26
+  - first:
+      213: 1300446280814488220
+    second: terrain_decor_27
+  - first:
+      213: -1048406129539609736
+    second: terrain_decor_28
+  - first:
+      213: -182794599531256875
+    second: terrain_decor_29
+  - first:
+      213: 8452212910223399888
+    second: terrain_decor_30
+  - first:
+      213: -7372169288851788945
+    second: terrain_decor_31
+  - first:
+      213: -2597735002913676911
+    second: terrain_decor_32
+  - first:
+      213: -418165863389771644
+    second: terrain_decor_33
+  - first:
+      213: 6358867827109330599
+    second: terrain_decor_34
+  - first:
+      213: 2301020340225429801
+    second: terrain_decor_35
+  - first:
+      213: -5198086626889234679
+    second: terrain_decor_36
+  - first:
+      213: 2730832231148425678
+    second: terrain_decor_37
+  - first:
+      213: 2827534227826721346
+    second: terrain_decor_38
+  - first:
+      213: -115341304430378599
+    second: terrain_decor_39
+  - first:
+      213: -5709217062217430465
+    second: terrain_decor_40
+  - first:
+      213: 4627417832796797200
+    second: terrain_decor_41
+  - first:
+      213: -3933204693989760875
+    second: terrain_decor_42
+  - first:
+      213: -6761780526425458627
+    second: terrain_decor_43
+  - first:
+      213: -1835210781246416237
+    second: terrain_decor_44
+  - first:
+      213: -2366924166834763959
+    second: terrain_decor_45
+  - first:
+      213: 8999804655455437519
+    second: terrain_decor_46
+  - first:
+      213: 3194871502463288352
+    second: terrain_decor_47
+  - first:
+      213: 201079901224974739
+    second: terrain_decor_48
+  - first:
+      213: -1054922943699133672
+    second: terrain_decor_49
+  - first:
+      213: -6994133656796659266
+    second: terrain_decor_50
+  - first:
+      213: 8245407142774574697
+    second: terrain_decor_51
+  - first:
+      213: 8865620897067207825
+    second: terrain_decor_52
+  - first:
+      213: -34449905177804566
+    second: terrain_decor_53
+  - first:
+      213: -8888908178505613169
+    second: terrain_decor_54
+  - first:
+      213: -2073337529306639338
+    second: terrain_decor_55
+  - first:
+      213: -6353962132692748611
+    second: terrain_decor_56
+  - first:
+      213: -6899105780241281255
+    second: terrain_decor_57
+  - first:
+      213: 7027513216520622193
+    second: terrain_decor_58
+  - first:
+      213: -5227772658541929314
+    second: terrain_decor_59
+  - first:
+      213: -2389422112213017446
+    second: terrain_decor_60
+  - first:
+      213: 7122804829163936329
+    second: terrain_decor_61
+  - first:
+      213: 2068047269378387492
+    second: terrain_decor_62
+  - first:
+      213: 7728519098681133255
+    second: terrain_decor_63
+  - first:
+      213: -7687604444111782995
+    second: terrain_decor_64
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: terrain_decor_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 452
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c07952b79eebe920800000000000000
+      internalID: 3020770310381727938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_1
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 448
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68c2b4a5ac8eb3260800000000000000
+      internalID: 7078507195138780294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_2
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 464
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aae21a8ba20451800800000000000000
+      internalID: 582442279044722346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_3
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 481
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c1280705af0be500800000000000000
+      internalID: 426451791178637760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_4
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 452
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f50552c5dbfed1690800000000000000
+      internalID: -7629678597121945505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_5
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 448
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 038573b9e373c9010800000000000000
+      internalID: 1196892343005304880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_6
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 465
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7210d284147637b0800000000000000
+      internalID: -5244877084583521665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_7
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 456
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d265d3690e3d4b0800000000000000
+      internalID: -5416738990917800596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_8
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 452
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd8717233043d41d0800000000000000
+      internalID: -3364976158240048933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_9
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 457
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6dc93c6894e449a0800000000000000
+      internalID: -6249619039581516435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 458
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 772263fed8120a050800000000000000
+      internalID: 5809680412795347575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_11
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 453
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35017a6e33003c1b0800000000000000
+      internalID: -5637662085624688557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_12
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 458
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c5f76e13608e27d0800000000000000
+      internalID: -2941272343426107964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_13
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 448
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af4a1a6e9d0c2d6a0800000000000000
+      internalID: -6425861676194487046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_14
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 448
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f37ba4fd0a6fc58b0800000000000000
+      internalID: -5161979902072015041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_15
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44c1f1fe1218b6240800000000000000
+      internalID: 4786061011756981316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_16
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 448
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5636437f12c35b880800000000000000
+      internalID: -8595898197187730587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_17
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 449
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95d307669d9211630800000000000000
+      internalID: 3895941166355463513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_18
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 416
+        width: 66
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83ed667d8b4cd31f0800000000000000
+      internalID: -1063477638822699464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_19
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 433
+        width: 66
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a6bf75413f60940800000000000000
+      internalID: 5262160483329993224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_20
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 417
+        width: 66
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b544832a119d52010800000000000000
+      internalID: 1163574748504409179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_21
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 401
+        width: 66
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f08ce6ab684e45170800000000000000
+      internalID: 8166403291634124815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_22
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 400
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cacb3e60c995ecc0800000000000000
+      internalID: -3682368068543329600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_23
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 400
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95a379fa04142eef0800000000000000
+      internalID: -80430097259611559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_24
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 400
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 102b72884c9ded850800000000000000
+      internalID: 6403795158288544257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_25
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 400
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 983e0b1499dd2dd70800000000000000
+      internalID: 9066552650152076169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_26
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 384
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02bc61e361283da10800000000000000
+      internalID: 1933031697114647328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_27
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 384
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9aec69900d1c0210800000000000000
+      internalID: 1300446280814488220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_28
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 384
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87b037c0e205371f0800000000000000
+      internalID: -1048406129539609736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_29
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 384
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d3641cb745967df0800000000000000
+      internalID: -182794599531256875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_30
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 384
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db16df2cda4c4570800000000000000
+      internalID: 8452212910223399888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_31
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 384
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6be1f9571bc0b990800000000000000
+      internalID: -7372169288851788945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_32
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 384
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1916bba37cdf2fbd0800000000000000
+      internalID: -2597735002913676911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_33
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 384
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 488457fdc50623af0800000000000000
+      internalID: -418165863389771644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_34
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 384
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aef288199c3f3850800000000000000
+      internalID: 6358867827109330599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_35
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 368
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 921d510eecddeef10800000000000000
+      internalID: 2301020340225429801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_36
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 368
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9070f84e0cfacd7b0800000000000000
+      internalID: -5198086626889234679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_37
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 353
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec11ac6127dd5e520800000000000000
+      internalID: 2730832231148425678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_38
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 368
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 242ced7366b6d3720800000000000000
+      internalID: 2827534227826721346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_39
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 368
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9914f79d1b9366ef0800000000000000
+      internalID: -115341304430378599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_40
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 368
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a4ee4a459c4c0b0800000000000000
+      internalID: -5709217062217430465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_41
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 353
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01939277004e73040800000000000000
+      internalID: 4627417832796797200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_42
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 353
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59067d97b237a69c0800000000000000
+      internalID: -3933204693989760875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_43
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 353
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38b149cf645922a0800000000000000
+      internalID: -6761780526425458627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_44
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 337
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39a17df84850886e0800000000000000
+      internalID: -1835210781246416237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_45
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 337
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 947c681c20ff62fd0800000000000000
+      internalID: -2366924166834763959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_46
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 337
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc20450b6aab5ec70800000000000000
+      internalID: 8999804655455437519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_47
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 337
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024c75f44b6765c20800000000000000
+      internalID: 3194871502463288352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_48
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 321
+        width: 66
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3993cf3da116ac200800000000000000
+      internalID: 201079901224974739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_49
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 288
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81b57630c292c51f0800000000000000
+      internalID: -1054922943699133672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_50
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 298
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb10803ee78dfee90800000000000000
+      internalID: -6994133656796659266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_51
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 293
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96e0c8d3c129d6270800000000000000
+      internalID: 8245407142774574697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_52
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 298
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19c88fadb33090b70800000000000000
+      internalID: 8865620897067207825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_53
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 289
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae0c4576efb958ff0800000000000000
+      internalID: -34449905177804566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_54
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f80cb1b6b1144a480800000000000000
+      internalID: -8888908178505613169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_55
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 288
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 614113a80860a33e0800000000000000
+      internalID: -2073337529306639338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_56
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 289
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db6b094ea1132d7a0800000000000000
+      internalID: -6353962132692748611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_57
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 256
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91fcfdc88d37140a0800000000000000
+      internalID: -6899105780241281255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_58
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 266
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 170131d790eb68160800000000000000
+      internalID: 7027513216520622193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_59
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 261
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9cdb1907783377b0800000000000000
+      internalID: -5227772658541929314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_60
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 266
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9c5417af3117ded0800000000000000
+      internalID: -2389422112213017446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_61
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 257
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ad0cef04949d260800000000000000
+      internalID: 7122804829163936329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_62
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42ee306d80e23bc10800000000000000
+      internalID: 2068047269378387492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_63
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 256
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c806bc3c27314b60800000000000000
+      internalID: 7728519098681133255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_decor_64
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 257
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dabb00f1d74205590800000000000000
+      internalID: -7687604444111782995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      terrain_decor_0: 3020770310381727938
+      terrain_decor_1: 7078507195138780294
+      terrain_decor_10: 5809680412795347575
+      terrain_decor_11: -5637662085624688557
+      terrain_decor_12: -2941272343426107964
+      terrain_decor_13: -6425861676194487046
+      terrain_decor_14: -5161979902072015041
+      terrain_decor_15: 4786061011756981316
+      terrain_decor_16: -8595898197187730587
+      terrain_decor_17: 3895941166355463513
+      terrain_decor_18: -1063477638822699464
+      terrain_decor_19: 5262160483329993224
+      terrain_decor_2: 582442279044722346
+      terrain_decor_20: 1163574748504409179
+      terrain_decor_21: 8166403291634124815
+      terrain_decor_22: -3682368068543329600
+      terrain_decor_23: -80430097259611559
+      terrain_decor_24: 6403795158288544257
+      terrain_decor_25: 9066552650152076169
+      terrain_decor_26: 1933031697114647328
+      terrain_decor_27: 1300446280814488220
+      terrain_decor_28: -1048406129539609736
+      terrain_decor_29: -182794599531256875
+      terrain_decor_3: 426451791178637760
+      terrain_decor_30: 8452212910223399888
+      terrain_decor_31: -7372169288851788945
+      terrain_decor_32: -2597735002913676911
+      terrain_decor_33: -418165863389771644
+      terrain_decor_34: 6358867827109330599
+      terrain_decor_35: 2301020340225429801
+      terrain_decor_36: -5198086626889234679
+      terrain_decor_37: 2730832231148425678
+      terrain_decor_38: 2827534227826721346
+      terrain_decor_39: -115341304430378599
+      terrain_decor_4: -7629678597121945505
+      terrain_decor_40: -5709217062217430465
+      terrain_decor_41: 4627417832796797200
+      terrain_decor_42: -3933204693989760875
+      terrain_decor_43: -6761780526425458627
+      terrain_decor_44: -1835210781246416237
+      terrain_decor_45: -2366924166834763959
+      terrain_decor_46: 8999804655455437519
+      terrain_decor_47: 3194871502463288352
+      terrain_decor_48: 201079901224974739
+      terrain_decor_49: -1054922943699133672
+      terrain_decor_5: 1196892343005304880
+      terrain_decor_50: -6994133656796659266
+      terrain_decor_51: 8245407142774574697
+      terrain_decor_52: 8865620897067207825
+      terrain_decor_53: -34449905177804566
+      terrain_decor_54: -8888908178505613169
+      terrain_decor_55: -2073337529306639338
+      terrain_decor_56: -6353962132692748611
+      terrain_decor_57: -6899105780241281255
+      terrain_decor_58: 7027513216520622193
+      terrain_decor_59: -5227772658541929314
+      terrain_decor_6: -5244877084583521665
+      terrain_decor_60: -2389422112213017446
+      terrain_decor_61: 7122804829163936329
+      terrain_decor_62: 2068047269378387492
+      terrain_decor_63: 7728519098681133255
+      terrain_decor_64: -7687604444111782995
+      terrain_decor_7: -5416738990917800596
+      terrain_decor_8: -3364976158240048933
+      terrain_decor_9: -6249619039581516435
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
