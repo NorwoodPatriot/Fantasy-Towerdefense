@@ -124,6 +124,13 @@ public class GridManager : MonoBehaviour
 
         // Bejelöljük a rácsot foglaltnak
         isOccupied[row, col] = true;
+
+        // --- ÚJ SOR: ÉPÍTÉS HANG ---
+        if (AudioManager.instance != null)
+        {
+            AudioManager.instance.PlaySFX(AudioManager.instance.epitesHang);
+        }
+
         Debug.Log($"Egység telepítve: Sor: {row}, Oszlop: {col}");
     }
 

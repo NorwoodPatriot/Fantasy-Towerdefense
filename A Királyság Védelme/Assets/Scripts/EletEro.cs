@@ -2,11 +2,14 @@ using UnityEngine;
 
 public class EletEro : MonoBehaviour
 {
+    [Header("Élet Beállítások")]
     public int maxElet = 100;
     public int jelenlegiElet;
 
-    // --- ÚJ VÁLTOZÓK: Hol vagyok a rácson? ---
-    // Alapból -1, ami azt jelenti: "nem vagyok rácson" (pl. Goblin)
+    [Header("Jutalom")]
+    public int aranyErtek = 0; // Mennyi pénzt dobjon halálkor? (Véd?knél 0, Goblinnál pl. 10)
+
+    // Rács pozíció (hogy tudjuk, honnan töröljük)
     private int myRow = -1;
     private int myCol = -1;
 
@@ -15,7 +18,6 @@ public class EletEro : MonoBehaviour
         jelenlegiElet = maxElet;
     }
 
-    // --- ÚJ FÜGGVÉNY: A GridManager hívja meg lerakáskor ---
     public void BeallitRacsPozicio(int row, int col)
     {
         myRow = row;
@@ -34,10 +36,19 @@ public class EletEro : MonoBehaviour
 
     void Meghal()
     {
-        // --- ÚJ RÉSZ: Szólunk a rácsnak, ha volt helyünk ---
+        // --- ÚJ RÉSZ: PÉNZ KIOSZTÁSA ---
+        // Csak akkor adunk pénzt, ha van értéke (pl. Goblin) és létezik a GameManager
+        if (aranyErtek > 0 && GameManager.instance != null)
+        {
+            GameManager.instance.AddGold(aranyErtek);
+            GameManager.instance.AddMana(aranyErtek*2);
+            Debug.Log($"Hulla-jutalék: +{aranyErtek} Gold!");
+        }
+        // -------------------------------
+
+        // Szólunk a rácsnak, ha volt helyünk (ez a Véd?kre vonatkozik)
         if (myRow != -1 && myCol != -1)
         {
-            // Ha létezik a GridManager, szólunk neki
             if (GridManager.instance != null)
             {
                 GridManager.instance.CellFelszabadit(myRow, myCol);

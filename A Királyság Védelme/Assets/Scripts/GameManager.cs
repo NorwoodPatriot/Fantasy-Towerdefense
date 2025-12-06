@@ -15,11 +15,13 @@ public class GameManager : MonoBehaviour
     [Header("Játékos Adatai")]
     public int currentMana = 100;
     public int currentLives = 3;
+    public int currentGold = 0;
     public bool isGameOver = false;
 
     [Header("UI Referenciák")]
     public TMP_Text manaText;
     public TMP_Text livesText;
+    public TMP_Text goldText;
     public GameObject gameOverPanel;
 
     [Header("Bolt")]
@@ -43,6 +45,12 @@ public class GameManager : MonoBehaviour
     public void AddMana(int amount)
     {
         currentMana += amount;
+        UpdateUI();
+    }
+
+    public void AddGold(int amount)
+    {
+        currentGold += amount;
         UpdateUI();
     }
 
@@ -76,17 +84,36 @@ public class GameManager : MonoBehaviour
     {
         isGameOver = true;
         Debug.Log("GAME OVER! Vesztettél!");
+        if (AudioManager.instance != null)
+        {
+            AudioManager.instance.musicSource.Stop();
+            AudioManager.instance.PlaySFX(AudioManager.instance.gameOverHang);
+        }
         Time.timeScale = 0;
 
         if (gameOverPanel != null)
         {
             gameOverPanel.SetActive(true);
         }
+        // --- ÚJ SOR: GAME OVER HANG ---
+        // El?ször leállítjuk a zenét, hogy drámai legyen
+       
     }
 
     void UpdateUI()
     {
         if (manaText != null) manaText.text = currentMana.ToString();
         if (livesText != null) livesText.text = currentLives.ToString();
+        if (goldText != null) goldText.text = currentGold.ToString();
+    }
+
+    public void RestartGame()
+    {
+        // 1. Visszaállítjuk az id?t normálisra (mert Game Overkor megállítottuk 0-ra!)
+        Time.timeScale = 1f;
+
+        // 2. Újratöltjük az aktuális pályát (Scene-t)
+        // Ehhez kell a "using UnityEngine.SceneManagement;" a fájl tetején (az már ott van nálad)
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

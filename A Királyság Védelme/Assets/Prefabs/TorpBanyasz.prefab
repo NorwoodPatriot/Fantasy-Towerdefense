@@ -106,8 +106,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c7d69d93b74f8341a9b162aacb55e5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ManaTermelo
-  mennyiseg: 30
-  idokoz: 4
+  mennyiseg: 35
+  idokoz: 5
 --- !u!114 &5750474141221745946
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -122,6 +122,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EletEro
   maxElet: 30
   jelenlegiElet: 0
+  aranyErtek: 0
 --- !u!61 &1355608655780815584
 BoxCollider2D:
   m_ObjectHideFlags: 0

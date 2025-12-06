@@ -30,6 +30,11 @@ public class LovedekMozgas : MonoBehaviour
             if (enemyElet != null)
             {
                 enemyElet.SebzestKap(sebzes);
+                // --- ÚJ SOR: TALÁLAT HANG ---
+                if (AudioManager.instance != null)
+                {
+                    AudioManager.instance.PlaySFX(AudioManager.instance.talalatHang);
+                }
             }
 
             // A golyó becsapódott, tehát megsemmisül

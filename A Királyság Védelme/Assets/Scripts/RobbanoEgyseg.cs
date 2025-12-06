@@ -19,6 +19,11 @@ public class RobbanoEgyseg : MonoBehaviour
                 // Bumm! Megsebezzük az ellenséget
                 enemyElet.SebzestKap(robbanasSebzes);
                 Debug.Log("?? BUMM! Az akna felrobbant!");
+                // --- ÚJ SOR: ROBBANÁS HANG ---
+                if (AudioManager.instance != null)
+                {
+                    AudioManager.instance.PlaySFX(AudioManager.instance.robbanasHang);
+                }
             }
 
             // Az akna is megsemmisül a robbanásban (feláldozza magát)

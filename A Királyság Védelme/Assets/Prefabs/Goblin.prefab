@@ -182,6 +182,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EletEro
   maxElet: 4
   jelenlegiElet: 0
+  aranyErtek: 2
 --- !u!114 &6456458547222267004
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -195,3 +196,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EllensegMozgas
   sebesseg: 1.5
+  sebzes: 10
+  tamadasSebesseg: 1

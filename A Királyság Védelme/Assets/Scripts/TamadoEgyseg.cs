@@ -29,7 +29,12 @@ public class TamadoEgyseg : MonoBehaviour
 
     void Loves()
     {
-        // Létrehozzuk a lövedéket a saját pozíciónkban
         Instantiate(lovedekPrefab, transform.position, Quaternion.identity);
+
+        // --- ÚJ SOR: LÖVÉS HANG ---
+        if (AudioManager.instance != null)
+        {
+            AudioManager.instance.PlaySFX(AudioManager.instance.lovesHang);
+        }
     }
 }
